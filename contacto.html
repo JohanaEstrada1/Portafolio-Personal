@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Datos meta -->
+    <meta name="author" content="Johana Mareli Estrada Romero">
+    <meta name="description" content="Página de contacto del portafolio personal de Johana Estrada">
+    <meta name="keywords" content="Contacto, Johana Estrada, Mensaje, Ubicación, León Guanajuato">
+    <link rel="icon" href="iconos/icon.png" type="image/png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Contacto | Johana Estrada</title>
+</head>
+<body class="bg-light text-dark">
+
+ <!-- Barra de inicio-->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark border-bottom border-secondary shadow-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-uppercase tracking-wider text-info" href="index.html">
+            <span class="text-white">Johana</span> Estrada
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item">
+                    <a class="nav-link px-3 text-light" href="index.html">Inicio</a>
+                </li>
+        <li class="nav-item">
+                    <a class="nav-link px-3 text-light" href="index.html#proyectos">Proyectos</a>
+                </li>
+        <li class="nav-item">
+                    <a class="nav-link px-3 text-light" href="index.html#multimedia">Multimedia</a>
+                </li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                    <a class="btn btn-outline-info btn-sm px-4 rounded-pill active" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección de formulario-->
+<main class="container my-5">
+    <section class="contenedor" id="menu_contact">
+        <article id="glass">
+            <h2 class="titulo"><span class="icono">✉️</span> Escríbeme</h2>
+            <form action="">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Escribe tu mensaje..." rows="3" required></textarea>
+                <input type="submit" class="boton" value="Enviar">
+            </form>
+        </article>
+    </section>
+
+    <!-- Sección de mapa-->
+    <section class="contenedor text-center my-5">
+        <h2 class="titulo mb-3"><span class="icono">📍</span> Ubicación</h2>
+        <p class="text-muted mb-4">León, Guanajuato, México.</p>
+        
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59563.8563217605!2d-101.6740398654571!3d21.083003456718316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1792974706647!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+</main>
+
+<!-- Footer-->
+<footer class="text-center py-4 border-top" style="background-color: #212529; color: #ffffff;">
+    <div class="container">
+        <p class="mb-0 small">&copy; 2026 Johana Mareli Estrada Romero - Portafolio Académico</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Datos meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johana Mareli Estrada Romero">
+    <meta name="description" content="Portafolio personal académico y profesional/ Johana Estrada">
+    <meta name="keywords" content="Johana Estrada, Portafolio, Marketing Digital, Desarrollo Web, Bootstrap">
+   
+    <link rel="icon" href="iconos/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Portafolio Personal | Johana Estrada</title>
+</head>
+
+ <!-- Barra de inicio-->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark border-bottom border-secondary shadow-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-uppercase tracking-wider text-info" href="index.html">
+            <span class="text-white">Johana</span> Estrada
+        </a>
+        
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- Enlaces de páginas-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-lg-items-center">
+        <li class="nav-item">
+                    <a class="nav-link active px-3 text-light fw-semibold" aria-current="page" href="index.html">Inicio</a>
+                </li>
+        <li class="nav-item">
+                    <a class="nav-link px-3 text-light" href="#proyectos">Proyectos</a>
+                </li>
+        <li class="nav-item">
+                    <a class="nav-link px-3 text-light" href="#multimedia">Multimedia</a>
+                </li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                    <a class="btn btn-outline-info btn-sm px-4 rounded-pill" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+   <!-- Sección de bienvenida-->
+    <main class="container my-5">
+        <section class="p-4 p-md-5 mb-5 rounded-4 border shadow-sm bg-white text-center">
+            <h1 class="display-5 fw-bold text-dark mb-3">Mi nombre es Johana</h1>
+            <p class="col-md-8 fs-5 mx-auto text-muted mb-4">
+                Estudiante enfocada en marketing digital, desarrollo web y diseño multimedia audiovisual.
+            </p>
+
+
+
+            <!-- Carrusel de Bootstrap de inicio -->
+            <div id="carouselExampleAutoplaying" class="carousel slide mb-4 shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active data-bs-interval="1500"">
+                        <img src="imagenes/img1.jpg" class="d-block w-100" alt="Proyecto 1" style="max-height: 400px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item data-bs-interval="1500"">
+                        <img src="imagenes/img2.jpg" class="d-block w-100" alt="Proyecto 2" style="max-height: 400px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item data-bs-interval="1500"">
+                        <img src="imagenes/imgg3.jpg" class="d-block w-100" alt="Proyecto 3" style="max-height: 400px; object-fit: cover;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+            <!-- Botón debajo del carrusel -->
+            <div>
+                <a href="#proyectos" class="btn btn-dark px-5 py-2 rounded-pill shadow-sm">Ver Proyectos</a>
+            </div>
+        </section>
+
+
+
+        <!-- Sección de proyectos -->
+        <section id="proyectos" class="mb-5">
+    <h2 class="text-center mb-4 fw-bold">Mis Proyectos</h2>
+    <div class="row g-4">
+        <!-- Estrategia digital -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Estrategia Digital</h5>
+                    <p class="card-text text-muted">Desarrollo de estrategias de marketing, campañas publicitarias y promociones para negocios, utilizando redes sociales para atraer clientes y mejorar su presencia digital.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desarrollo web -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Desarrollo Web</h5>
+                    <p class="card-text text-muted">Creación de sitios web con HTML5 y Bootstrap, organizando textos, imágenes, enlaces y diferentes elementos para desarrollar páginas atractivas y fáciles de navegar.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diseño UX/UI -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Diseño UX/UI</h5>
+                    <p class="card-text text-muted">Diseño de interfaces y prototipos de aplicaciones en Figma, organizando pantallas y elementos visuales para crear experiencias sencillas e intuitivas para los usuarios.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diseño gráfico y edición digital -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Diseño Gráfico y Edición Digital</h5>
+                    <p class="card-text text-muted">Edición y restauración de imágenes, creación de diseños visuales y trabajo con gráficos vectoriales utilizando herramientas como Photoshop, Photopea e Illustrator.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animación digital y modelado 3D -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Animación Digital y Modelado 3D</h5>
+                    <p class="card-text text-muted">Uso de Blender para explorar la creación de animaciones, personajes y escenas digitales, desarrollando habilidades de creatividad y comunicación visual.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producción multimedia -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Producción Multimedia</h5>
+                    <p class="card-text text-muted">Creación de contenido audiovisual, elaboración de guiones para podcast y edición de audio y video utilizando herramientas digitales como CapCut.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Imagenes -->
+<section id="galeria-fotos" class="mb-5">
+    <div class="row g-3">
+        <div class="col-md-4">
+            <img src="imagenes/mod1.png" class="img-galeria w-100 rounded shadow-sm" alt="Proyecto 1">
+        </div>
+        <div class="col-md-4">
+            <img src="imagenes/mod2.png" class="img-galeria w-100 rounded shadow-sm" alt="Proyecto 2">
+        </div>
+        <div class="col-md-4">
+            <img src="imagenes/mod3.png" class="img-galeria w-100 rounded shadow-sm" alt="Proyecto 3">
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Apartado de video y audio-->
+<section id="multimedia" class="mb-5 p-4 bg-white rounded-4 border shadow-sm">
+            <h2 class="text-center mb-4 fw-bold"><span class="icono">🎬</span>Sobre mi carrera</h2>
+            <div class="row g-4 text-center">
+                <!-- Video -->
+                <div class="col-md-6">
+                    <h5 class="mb-3 text-muted">Video</h5><span class="icono">🎥</span>
+                    <video controls class="w-100 rounded video-utl">
+                        <source src="medios/videoutl.mp4" type="video/mp4">
+                        Tu navegador no soporta video.
+                    </video>
+                </div>
+                <!--Audio -->
+                <div class="col-md-6">
+                    <h5 class="mb-3 text-muted">Audio</h5><span class="icono">🎵</span>
+                    <audio controls class="w-100 audio-utl">
+                        <source src="medios/videoutl.mp3" type="audio/mpeg">
+                        Tu navegador no soporta audio.
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+
+             <!-- Imagen horizontal-->
+        <section class="mb-5">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <img src="imagenes/sobre_mi.jpg" class="img-fluid w-100" style="max-height: 350px; object-fit: cover;" alt="Imagen horizontal de presentación">
+            </div>
+        </section>
+        
+        <!-- Sección sobre mí-->
+        <section id="proyectos" class="mb-5">
+            <h2 class="text-center mb-4 fw-bold">Conociendo a Johana</h2>
+            <div class="row g-4">
+                
+                <!-- Datos académicos -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 p-2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-dark mb-3">Sobre mí y UTL</h5>
+                            <p class="card-text text-muted small">
+                                Soy estudiante de la Universidad Tecnológica de León (UTL) en Entornos Virtuales y Negocios Digitales. Me interesa la tecnología, el diseño digital y aprender a crear páginas web desde cero de forma creativa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Habilidades-->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 p-2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-dark mb-3">Habilidades</h5>
+                            <p class="card-text text-muted small">
+                                Facilidad para el aprendizaje tecnológico, adaptabilidad ante nuevos retos, creatividad para el diseño y mucha iniciativa para poner en práctica proyectos digitales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Hobbies e Intereses -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 p-2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-dark mb-3">Hobbies e Intereses</h5>
+                            <p class="card-text text-muted small">
+                                Me gusta mucho ir al gimnasio para mantenerme activa y con disciplina. También disfruto descubrir nuevas herramientas digitales, explorar ideas de diseño y aprender constantemente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+</main>
+       
+   <!-- Footer -->
+<footer class="text-center py-4 border-top">
+    <div class="container">
+        <p class="mb-0 small">&copy; 2026 Johana Mareli Estrada Romero - Portafolio</p>
+    </div>
+</footer>
+
+
+    <!-- Script de Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
