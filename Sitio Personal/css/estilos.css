@@ -1,0 +1,138 @@
+/* Cargando la fuente chida desde la carpeta */
+@font-face {
+    font-family: 'Outfit';
+    src: url('../font/Outfit-Regular.ttf') format('truetype');
+}
+
+/* Al hacer click se vea color diferente */
+html {
+    scroll-behavior: smooth;
+}
+
+/* imagenes */
+.img-galeria {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Use !important para asegurar que estos estilos manden y se apliquen sí o sí, ganándole a cualquier regla por defecto o de Bootstrap. */
+
+
+/* Estilo de toda la página */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #268ab94b !important;
+    color: #1e293b !important;
+}
+
+/* Barra de navegación  */
+.navbar {
+    background-color: #222129 !important;
+    border-bottom: 1px solid #495057 !important;
+}
+
+/* Tarjetas y secciones  */
+section, .card {
+    background-color: #ffffff !important;
+    color: #1e293b !important;
+}
+
+/* Botones con espaciado  */
+.btn {
+    font-size: 0.95rem;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Imágenes del carrusel redondeaditas */
+.carousel img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card {
+    border: 1px solid #0d6efd33;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #0d6efd40;
+    border-color: #0d6efd;
+}
+
+/* TVideo */
+#multimedia video {
+    max-width: 500px;
+    height: auto;
+}
+
+footer {
+    background-color: #212529 !important;
+    color: #ffffff !important;
+    border-top: 1px solid #495057 !important;
+}
+
+footer p {
+    color: #ffffff !important;
+}
+
+/* El cuadro de contacto */
+#glass {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1e8e9c;
+    border: 1px solid #29242499;
+    padding: 25px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+#glass .titulo {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario  */
+input, textarea {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    padding: 12px;
+    color: #4f5b5e;
+    font-size: 1.1rem;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+}
+
+/* Color de formulario al escribir */
+input:focus, textarea:focus {
+    outline: 0px;
+    color: #fff;
+    background-color: #26264b;
+}
+
+/* El botón de enviar */
+input[type="submit"] {
+    font-family: inherit;
+    color: #fff;
+    background-color: #302f52;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 130px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #13607e;
+}
+
+#mapa {
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
